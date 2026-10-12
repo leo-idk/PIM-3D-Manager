@@ -2,11 +2,12 @@
 
 Sistema de gerenciamento integrado desenvolvido em linguagem C para controle de projetos, tarefas e estoque de filamentos voltado a operações de impressão 3D. 
 
-O software consolida o controle de acesso por níveis de usuário (Membro e Gerente), a gestão do fluxo de trabalho por tarefas com dependências, o registro de entradas e saídas de matéria-prima com detalhamento de perdas, além de relatórios gerenciais e diário de bordo.
+O *`software*` consolida o controle de acesso por níveis de usuário (Membro e Gerente), a gestão do fluxo de trabalho por tarefas com dependências, o registro de entradas e saídas de matéria-prima, o rastreio de perdas, além de relatórios gerenciais e diário de bordo integrados.
 
 ## Para Compilar o projeto:
 
 ## 1. Copie e execute este comando:
+```bash
 gcc -std=c99 -Wall -Wextra -o main main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c
 Esse comando reúne os arquivos do sistema e gera o executável chamado main.
 
