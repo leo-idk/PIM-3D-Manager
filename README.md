@@ -8,7 +8,7 @@ O *`software*` consolida o controle de acesso por níveis de usuário (Membro e 
 
 ## 1. Copie e execute este comando:
 ```bash
-gcc -std=c99 -Wall -Wextra -o main main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c
+gcc -std=c99 -Wall -Wextra -o main main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c```
 Esse comando reúne os arquivos do sistema e gera o executável chamado main.
 
 ## 2. Abra o sistema
