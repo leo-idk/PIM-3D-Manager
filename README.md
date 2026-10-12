@@ -7,7 +7,7 @@ Sistema simples de controle de projetos e estoque para operações de impressão
 - **Controle de Estoque:** Registro de entradas, saídas e rastreio de perdas de matéria-prima.
 - **Relatórios e Histórico:** Relatórios gerenciais e diário de bordo.
 
-1. Compile o projeto
+### 1. Compile o projeto
 
 Copie e execute este comando:
 
