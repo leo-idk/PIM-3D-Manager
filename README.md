@@ -1,8 +1,66 @@
-# Sistema PIM
+# PIM 3D Manager
 
-Sistema desenvolvido em linguagem C para gerenciamento de usuários, projetos, tarefas, estoque de filamentos e relatórios.
+Sistema simples de controle de projetos e estoque para operações de impressão 3D, programado em linguagem C. O software centraliza:
 
-## Compilação
+- **Controle de Acesso:** Permissões por níveis de usuário (Membro e Gerente).
+- **Gestão de Projetos e Tarefas:** Acompanhamento de fluxo de trabalho.
+- **Controle de Estoque:** Registro de entradas, saídas e rastreio de perdas de matéria-prima.
+- **Relatórios e Histórico:** Relatórios gerenciais e diário de bordo.
+
+1. Compile o projeto
+
+Copie e execute este comando:
+
+#### No Linux:
+
+```bash
+gcc -std=c99 -Wall -Wextra -o main main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c
+./main
+
+```
+
+#### No Windows (GCC instalado):
+
+```cmd
+gcc -std=c99 -Wall -Wextra -o main.exe main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c
+main.exe
+
+```
+
+Esse comando reúne os arquivos do sistema e gera o executável chamado main.
+
+### 2. Abra o sistema
+Se a compilação terminar sem erros, execute:
+./main
+
+O programa deverá iniciar no terminal.
+
+### 3. Se aparecer um erro
+Se o terminal informar que gcc não foi encontrado, instale o compilador com:
+
+### Windows:
+
+```cmd
+winget install w64devkit
+
+```
+
+### Ubuntu/Debian:
+
+```bash
+sudo apt update && sudo apt install build-essential
+
+```
+
+### Redhat/Fedora:
+```bash
+sudo dnf install gcc
+
+```
+
+#### Usando o Code::Blocks:
+
+Basta abrir o projeto `.cbp` no Code::Blocks e apertar **F9**.  
 
 Abra `PrjSistemaPIM.cbp` no Code::Blocks e compile o projeto. Os arquivos `.dat` são criados localmente durante o uso.
 
