@@ -38,21 +38,21 @@ O programa deverá iniciar no terminal.
 ### 3. Se aparecer um erro
 Se o terminal informar que gcc não foi encontrado, instale o compilador com:
 
-### Windows:
+#### Windows:
 
 ```cmd
 winget install w64devkit
 
 ```
 
-### Ubuntu/Debian:
+#### Ubuntu/Debian:
 
 ```bash
 sudo apt update && sudo apt install build-essential
 
 ```
 
-### Redhat/Fedora:
+#### Redhat/Fedora:
 ```bash
 sudo dnf install gcc
 
