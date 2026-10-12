@@ -3,9 +3,9 @@
 Sistema simples de controle de projetos e estoque para operações de impressão 3D, programado em linguagem C. O software centraliza:
 
 * **Controle de Acesso:** Permissões por níveis de usuário (Membro e Gerente).
-* **Gestão de Projetos e Tarefas:** Acompanhamento de fluxo de trabalho com dependências.
+* **Gestão de Projetos e Tarefas:** Acompanhamento de fluxo de trabalho.
 * **Controle de Estoque:** Registro de entradas, saídas e rastreio de perdas de matéria-prima.
-* **Relatórios e Histórico:** Relatórios gerenciais e diário de bordo integrados.
+* **Relatórios e Histórico:** Relatórios gerenciais e diário de bordo.
 
 ## Para Compilar o projeto:
 
