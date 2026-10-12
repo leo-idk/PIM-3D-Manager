@@ -1,6 +1,6 @@
 # PIM 3D Manager
 
-Desenvolvido para o trabalho de final de bimestre, o Projeto Integrador Multidisciplinar (PIM) do curso Analise e Desenvolvimento de Sistemas. O software centraliza:
+Desenvolvido para o trabalho de final de bimestre, o Projeto Integrador Multidisciplinar (PIM) II do curso Analise e Desenvolvimento de Sistemas. O software centraliza:
 
 - **Controle de Acesso:** Permissões por níveis de usuário (Membro e Gerente).
 - **Gestão de Projetos e Tarefas:** Acompanhamento de fluxo de trabalho.
