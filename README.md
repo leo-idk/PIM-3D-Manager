@@ -25,11 +25,11 @@ gcc -std=c99 -Wall -Wextra -o main.exe main.c globals.c utils.c usuarios.c proje
 main.exe
 
 ```
+Esse comando reúne os arquivos do sistema e gera o executável chamado main.
+
 #### No Windows (usando o Code::Blocks):
 
 Basta abrir o projeto `.cbp` no Code::Blocks e apertar **F9**.
-
-Esse comando reúne os arquivos do sistema e gera o executável chamado main.
 
 ## 2. Abra o sistema
 
