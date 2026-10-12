@@ -60,7 +60,9 @@ sudo dnf install gcc
 
 #### Usando o Code::Blocks:
 
-Basta abrir o projeto `.cbp` no Code::Blocks e apertar **F9**.  
+Basta abrir o projeto `.cbp` no Code::Blocks e apertar **F9**. 
+Login: admin@sistema.com
+Senha: 12345
 
 Abra `PrjSistemaPIM.cbp` no Code::Blocks e compile o projeto. Os arquivos `.dat` são criados localmente durante o uso.
 
