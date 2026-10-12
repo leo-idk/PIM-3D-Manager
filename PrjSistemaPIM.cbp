@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+    <FileVersion major="1" minor="6" />
+    <Project>
+        <Option title="PrjSistemaPIM" />
+        <Option pch_mode="2" />
+        <Option compiler="gcc" />
+        <Build>
+            <Target title="Debug">
+                <Option output="bin/Debug/PrjSistemaPIM" />
+                <Option object_output="obj/Debug/" />
+                <Option type="1" />
+                <Option compiler="gcc" />
+                <Compiler>
+                    <Add option="-g" />
+                    <Add option="-Wall" />
+                </Compiler>
+                <Linker />
+            </Target>
+            <Target title="Release">
+                <Option output="bin/Release/PrjSistemaPIM" />
+                <Option object_output="obj/Release/" />
+                <Option type="1" />
+                <Option compiler="gcc" />
+                <Compiler>
+                    <Add option="-O2" />
+                </Compiler>
+                <Linker />
+            </Target>
+        </Build>
+        <Compiler>
+            <Add option="-Wall" />
+            <Add option="-Wextra" />
+        </Compiler>
+        <Linker />
+        <Unit filename="main.c" />
+        <Unit filename="globals.c" />
+        <Unit filename="utils.c" />
+        <Unit filename="usuarios.c" />
+        <Unit filename="projetos.c" />
+        <Unit filename="tarefas.c" />
+        <Unit filename="estoque.c" />
+        <Unit filename="relatorios.c" />
+        <Unit filename="structs.h" />
+        <Unit filename="utils.h" />
+        <Unit filename="usuarios.h" />
+        <Unit filename="projetos.h" />
+        <Unit filename="tarefas.h" />
+        <Unit filename="estoque.h" />
+        <Unit filename="relatorios.h" />
+        <Extensions>
+            <code_completion />
+            <envvars />
+            <debugger />
+        </Extensions>
+    </Project>
+</CodeBlocks_project_file>
