@@ -14,7 +14,7 @@ O _`software_` consolida o controle de acesso por níveis de usuário (Membro e 
 Para compilar o projeto via terminal utilizando o `gcc`, execute:
 
 ```bash
-gcc -std=c99 -Wall -Wextra -o main main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c
+gcc -std=c99 -Wall -Wextra -o main main.c globals.c utils.c usuarios.c projetos.c tarefas.c estoque.c relatorios.c```
 
 Esse comando reúne os arquivos do sistema e gera o executável chamado main.
 
