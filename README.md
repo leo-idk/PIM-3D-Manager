@@ -1,8 +1,13 @@
 # PIM 3D Manager
 
-Sistema de gerenciamento integrado desenvolvido em linguagem C para controle de projetos, tarefas e estoque de filamentos voltado a operações de impressão 3D. 
+# PIM 3D Manager
 
-O software consolida o controle de acesso por níveis de usuário (Membro e Gerente), a gestão do fluxo de trabalho por tarefas com dependências, o registro de entradas e saídas de matéria-prima, o rastreio de perdas, além de relatórios gerenciais e diário de bordo integrados.
+Sistema de gerenciamento integrado em linguagem C para operações de impressão 3D. O software centraliza:
+
+* **Controle de Acesso:** Permissões por níveis de usuário (Membro e Gerente).
+* **Gestão de Projetos e Tarefas:** Acompanhamento de fluxo de trabalho com dependências.
+* **Controle de Estoque:** Registro de entradas, saídas e rastreio de perdas de matéria-prima.
+* **Relatórios e Histórico:** Relatórios gerenciais e diário de bordo integrados.
 
 ## Para Compilar o projeto:
 
