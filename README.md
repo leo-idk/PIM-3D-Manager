@@ -7,6 +7,10 @@ O _`software_` consolida o controle de acesso por níveis de usuário (Membro e 
 ## Para Compilar o projeto:
 
 ## 1. Copie e execute este comando:
+## Para Compilar o projeto:
+
+### 1. Copie e execute este comando:
+
 Para compilar o projeto via terminal utilizando o `gcc`, execute:
 
 ```bash
